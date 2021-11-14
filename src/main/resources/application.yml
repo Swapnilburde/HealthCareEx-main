@@ -3,8 +3,8 @@ server:
   
 master:
  user:
-  name: NIT-RAGHU
-  email: javabyraghu@gmail.com
+  name: Swapnilburde
+  email: swapnilburde2222@gmail.com
   
 spring:
   datasource:
