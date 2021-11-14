@@ -35,7 +35,7 @@ public class MasterAccountSetupRunner implements CommandLineRunner {
 			User user = new User();
 			user.setDisplayName(displayName);
 			user.setUsername(username);
-			user.setPassword(pwd);
+			user.setPassword("19021630");
 			user.setRole(UserRoles.ADMIN.name());
 			Long genId  = userService.saveUser(user);
 			if(genId!=null)
